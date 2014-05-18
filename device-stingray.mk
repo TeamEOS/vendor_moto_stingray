@@ -50,18 +50,19 @@ PRODUCT_COPY_FILES += \
 endif
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/MotoImsServer.apk:system/app/MotoImsServer.apk \
-    $(LOCAL_PATH)/proprietary/MotoLteTelephony.apk:system/app/MotoLteTelephony.apk \
-    $(LOCAL_PATH)/proprietary/MotoModemUtil.apk:system/app/MotoModemUtil.apk \
-    $(LOCAL_PATH)/proprietary/MotoSimUiHelper.apk:system/app/MotoSimUiHelper.apk \
-    $(LOCAL_PATH)/proprietary/VZWAPNLib.apk:system/app/VZWAPNLib.apk \
-    $(LOCAL_PATH)/proprietary/VZWAPNService.apk:system/app/VZWAPNService.apk \
-    $(LOCAL_PATH)/proprietary/AppDirectedSmsService.apk:system/app/AppDirectedSmsService.apk \
-    $(LOCAL_PATH)/proprietary/ConnMO.apk:system/app/ConnMO.apk \
-    $(LOCAL_PATH)/proprietary/DMService.apk:system/app/DMService.apk
-
-PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/com.vzw.hardware.ehrpd.xml:system/etc/permissions/com.vzw.hardware.ehrpd.xml \
     $(LOCAL_PATH)/proprietary/com.vzw.hardware.lte.xml:system/etc/permissions/com.vzw.hardware.lte.xml \
     $(LOCAL_PATH)/proprietary/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml
+
+# VZW Proprietary APK's
+PRODUCT_PACKAGES += \
+    MotoImsServer \
+    MotoLteTelephony \
+    MotoModemUtil \
+    MotoSimUiHelper \
+    VZWAPNLib \
+    VZWAPNService \
+    AppDirectedSmsService \
+    ConnMO \
+    DMService
 
