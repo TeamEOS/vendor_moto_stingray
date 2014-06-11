@@ -22,8 +22,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/extract-embedded-files:system/bin/extract-embedded-files \
     $(LOCAL_PATH)/proprietary/vril-dump:system/bin/vril-dump \
     $(LOCAL_PATH)/proprietary/logcatd:system/bin/logcatd \
-    $(LOCAL_PATH)/proprietary/logcatd-blan:system/bin/logcatd-blan \
-    device/sample/etc/apns-conf_verizon.xml:system/etc/apns-conf.xml
+    $(LOCAL_PATH)/proprietary/logcatd-blan:system/bin/logcatd-blan
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libmoto_cdma_ril.so:system/lib/libmoto_cdma_ril.so \
