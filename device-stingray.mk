@@ -58,7 +58,6 @@ PRODUCT_PACKAGES += \
     MotoImsServer \
     MotoLteTelephony \
     MotoModemUtil \
-    MotoSimUiHelper \
     VZWAPNLib \
     VZWAPNService \
     AppDirectedSmsService \
