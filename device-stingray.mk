@@ -62,5 +62,5 @@ PRODUCT_PACKAGES += \
     VZWAPNService \
     AppDirectedSmsService \
     ConnMO \
-    DMService
+    StingrayDMService
 
